@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/359dd407fb.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="Home" class="bg-slate-200 dark:bg-slate-950 cursor-default">
+    <div class="flex justify-between items-center">
+      <img
+        class="rounded-full w-16 ml-8"
+        src="./images/wepik-futuristic-gradient-cybercode-logo-20240329222639oEZI.png"
+        alt="" />
+      <ul class="flex py-7 mr-10 dark:text-white">
+        <li class=" hover:underline underline-offset-4 px-5">
+          <a href="#Home" class="px-2">Home</a>
+        </li>
+        <li class=" hover:underline underline-offset-4 px-5">
+          <a href="#Features" class="px-2 ">Features</a>
+        </li>
+        <li class=" hover:underline underline-offset-4 px-5">
+          <a href="#Contract" class="px-2">Contact</a>
+        </li>
+        <li class=" hover:underline underline-offset-4 px-5">
+          <a href="#About" class="px-2">About</a>
+        </li>
+      </ul>
+    </div>
+    <div id="About" class="flex flex-col lg:flex-row items-center mt-40 ml-12 p-16">
+      <div class="dark:text-white">
+        <div class="text-5xl">Hello ! My Name Is AliNB, Web Developer.</div>
+        <div class="max-w-md pt-10">
+          <h1 class="py-2 font-bold text-xl">Read This !</h1>
+          <p class="leading-relaxed">
+            At first glance, it may be difficult to create website components,
+            but we are here to make it easier!
+            <span class="hidden" id="show-more">
+              If you want to see our Javascript videos, click on the learn
+              button
+            </span>
+          </p>
+          <button
+            id="toggle-btn"
+            class="mt-4 text-blue-500 focus:outline-none hover:underline underline-offset-4">
+            Read More
+          </button>
+          <button
+            id="hide-btn"
+            class="hidden mt-4 text-blue-500 focus:outline-none hover:underline underline-offset-4">
+            Hide
+          </button>
+        </div>
+      </div>
+      <img src="images/undraw_coding_re_iv62 (1).svg" alt="" class="ml-auto" />
+    </div>
+    <div
+      class="dark:text-white font-semibold text-5xl flex justify-center mt-24">
+      Our Features
+    </div>
+    <div id="Features" class="flex flex-col lg:flex-row items-center justify-center m-24 gap-12">
+      <div
+        class="bg-white dark:bg-slate-800 w-80 h-80 inline rounded-2xl shadow-md mx-10 p-4 overflow-y-scroll">
+        <div class="font-semibold text-xl dark:text-white flex items-center"><i class="fa-solid fa-money-bill text-5xl pr-5"></i>Free Videos</div>
+        <p class="py-10 dark:text-white text-md">I would like to give you a year's experience in the web world for free, I hope you like it
+          In these videos, we are going to learn many things together, for example, how to make a slider or a reponsive website.</p>
+      </div>
+      <div
+      class="bg-white dark:bg-slate-800 w-80 h-80 inline rounded-2xl shadow-md mx-10 p-4 overflow-y-scroll">
+      <div class="font-semibold text-xl dark:text-white flex items-center"><i class="fa-solid fa-walkie-talkie text-5xl pr-5"></i>Talk Together</div>
+      <p class="py-10 dark:text-white text-md">If you're a beginner or even a professional programmer, you've likely encountered both small and big problems in coding that you couldn't solve. Well, the good news is that on this website, you can easily share your problems and get help.</p>
+    </div>
+    <div
+      class="bg-white dark:bg-slate-800 w-80 h-80 inline rounded-2xl shadow-md mx-10 p-4 overflow-y-scroll">
+      <div class="font-semibold text-xl dark:text-white flex items-center"><i class="fa-brands fa-discourse text-5xl pr-5"></i>Course</div>
+      <div class="font-semibold text-lg dark:text-white flex items-center">you can purchase these courses at these prices:</div>
+      <p class="py-3 dark:text-white text-md"><i class="fa-solid fa-check"></i>JavaScript Full Course 10$</p>
+      <p class="py-3 dark:text-white text-md"><i class="fa-solid fa-check"></i>HTML Full Course 5$</p>
+      <p class="py-3 dark:text-white text-md"><i class="fa-solid fa-check"></i>CSS Full Course 5$</p>
+      <p class="py-3 dark:text-white text-md"><i class="fa-solid fa-check"></i>Tailwind Full Course 5$</p>
+    </div>
+    </div>
+    <div
+    class="dark:text-white font-semibold text-5xl flex justify-center mt-24">
+    <div>Contact</div>
+  </div>
+  <div class="dark:text-white font-semibold text-2xl flex justify-center mt-24">
+    <p class="text-center m-auto">You can contact me for website development request and any collaboration through the following methods</p>
+  </div>
+    <div id="Contract" class="flex justify-center dark:text-white mt-32 ml-12 p-16">
+      <i class="fa-brands fa-instagram">call.me.alinb</i>
+      <i class="px-10 fa-brands fa-telegram">alikie021</i>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
